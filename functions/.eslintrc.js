@@ -30,6 +30,18 @@ module.exports = {
     "indent": ["error", 2],
     "linebreak-style": 0,
     "@typescript-eslint/no-var-requires": 0,
+    'require-jsdoc': [
+      'error',
+      {
+        require: {
+          FunctionDeclaration: false,
+          MethodDefinition: false,
+          ClassDeclaration: false,
+          ArrowFunctionExpression: false,
+          FunctionExpression: false,
+        },
+      },
+    ],
   },
   overrides: [
     {
