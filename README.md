@@ -1,2 +1,3 @@
 # applearnen-api
-api project 
+
+api project .
